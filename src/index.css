@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+th {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.main-container {
+  width: 80vw;
+  margin: auto;
+}
+
+.align-center {
+  justify-content: center;
+}
+
+.body-container {
+  border: 1px dotted black;
+  border-radius: 20px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
